@@ -1,0 +1,23 @@
+#app {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 20px 0 20px 0;
+}
+
+a.active {
+  color: #f15b2a
+}
+
+/* styles.css */
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}
+
+.input-error {
+  border-color: red;
+}
