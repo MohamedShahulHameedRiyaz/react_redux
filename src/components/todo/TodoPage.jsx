@@ -31,7 +31,7 @@ export const TodoPage = () => {
                 placeholder="Name"
                 name="todo"
                 {...register('todo', { required: true, maxLength: 20 })}
-                className={errors.todo ? 'input-error' : ''}
+                className={errors.todo ? 'input-error' : 'blue'}
             />
             {errors.todo && <p className="error-message">Todo is required.</p>}
             <button type="submit">{saving ? 'Saving...' : 'Submit'}</button>

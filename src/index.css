@@ -21,3 +21,7 @@ a.active {
 .input-error {
   border-color: red;
 }
+
+.blue {
+  color: blue
+}
